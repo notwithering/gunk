@@ -23,7 +23,7 @@ echo "aGVsbG8gd29ybGQK" | gunk -d base64
 ### make base91 text into ascii85 text
 
 ```bash
-echo "TPwJh>Io2Tv!^aB" | gunk -d base91 | gunk ascii85
+echo "TPwJh>Io2Tv!^aB" | gunk -d base91 ascii85
 ```
 
 ### list availible encodings and their aliases
